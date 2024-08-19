@@ -50,13 +50,13 @@ To run the project locally, follow these steps:
 
 ## Technical Challenges and Solutions
 
-- Ensuring secure and efficient user authentication and authorization across the platform: Implemented JWT-based authentication with Bcrypt for password hashing. Rigorous testing was conducted to validate the security and performance of the authentication flow, including OTP verification and password recovery features.
+- **Ensuring secure and efficient user authentication and authorization across the platform:** Implemented JWT-based authentication with Bcrypt for password hashing. Rigorous testing was conducted to validate the security and performance of the authentication flow, including OTP verification and password recovery features.
   
-- Handling media storage and retrieval for large volumes of course content while maintaining performance and reliability: Integrated Cloudinary for cloud-based media management, optimizing media storage and retrieval processes. This solution allows for scalable and efficient handling of multimedia content, ensuring a smooth user experience even with large file uploads.
+- **Handling media storage and retrieval for large volumes of course content while maintaining performance and reliability:** Integrated Cloudinary for cloud-based media management, optimizing media storage and retrieval processes. This solution allows for scalable and efficient handling of multimedia content, ensuring a smooth user experience even with large file uploads.
 
-- Managing transactional consistency and security during payment processing: Integrated Razorpay for secure and reliable payment processing. Implemented webhook handling to ensure that payment statuses are accurately reflected in the system, providing a seamless experience for users during course enrollment.
+- **Managing transactional consistency and security during payment processing:** Integrated Razorpay for secure and reliable payment processing. Implemented webhook handling to ensure that payment statuses are accurately reflected in the system, providing a seamless experience for users during course enrollment.
 
-- Designing a scalable API architecture that accommodates growing user demands and feature expansions: Adopted a RESTful API design with modular endpoints, ensuring clear separation of concerns and ease of future expansion. Extensive testing and optimization were performed to handle high traffic and maintain API performance.
+- **Designing a scalable API architecture that accommodates growing user demands and feature expansions:** Adopted a RESTful API design with modular endpoints, ensuring clear separation of concerns and ease of future expansion. Extensive testing and optimization were performed to handle high traffic and maintain API performance.
 
 ## Contributions
 
