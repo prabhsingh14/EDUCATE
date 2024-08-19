@@ -51,19 +51,20 @@ To run the project locally, follow these steps:
 ## Technical Challenges and Solutions
 
 - **Challenge**: Ensuring secure and efficient user authentication and authorization across the platform.
-  **Solution**: Implemented JWT-based authentication with Bcrypt for password hashing. Rigorous testing was conducted to validate the security and performance of the authentication flow, including OTP   verification and password recovery features.
+  **Solution**: Implemented JWT-based authentication with Bcrypt for password hashing. Rigorous testing was conducted to validate the security and performance of the authentication flow, including OTP verification and 
+  password recovery features.
   
 - **Challenge**: Handling media storage and retrieval for large volumes of course content while maintaining performance and reliability.
   **Solution**: Integrated Cloudinary for cloud-based media management, optimizing media storage and retrieval processes. This solution allows for scalable and efficient handling of multimedia    
   content, ensuring a smooth user experience even with large file uploads.
 
 - **Challenge**: Managing transactional consistency and security during payment processing.
-  **Solution**: Integrated Razorpay for secure and reliable payment processing. Implemented webhook handling to ensure that payment statuses are accurately reflected in the system, providing a     
-  seamless experience for users during course enrollment.
+  **Solution**: Integrated Razorpay for secure and reliable payment processing. Implemented webhook handling to ensure that payment statuses are accurately reflected in the system, providing a seamless experience for   
+  users during course enrollment.
 
 - **Challenge**: Designing a scalable API architecture that accommodates growing user demands and feature expansions.
-  **Solution**: Adopted a RESTful API design with modular endpoints, ensuring clear separation of concerns and ease of future expansion. Extensive testing and optimization were performed to handle 
-  high traffic and maintain API performance.
+  **Solution**: Adopted a RESTful API design with modular endpoints, ensuring clear separation of concerns and ease of future expansion. Extensive testing and optimization were performed to handle high traffic and 
+  maintain API performance.
 
 ## Contributions
 
