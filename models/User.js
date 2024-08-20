@@ -5,7 +5,7 @@ const userSchema = new mongoose.Schema(
 		firstName: {
 			type: String,
 			required: true,
-			trim: true, // to remove and whitespaces if any
+			trim: true, // to remove any whitespaces
 		},
 		lastName: {
 			type: String,
@@ -23,11 +23,21 @@ const userSchema = new mongoose.Schema(
 			type: String,
 			required: true,
 		},
-		
+
+		confirmPassword: {
+			type: String,
+			required: true,
+		},
+
 		accountType: {
 			type: String,
 			enum: ["Admin", "Student", "Instructor"],
 			required: true,
+		},
+
+		contactNumber: {
+			type: String,
+			trim: true,
 		},
 
 		active: {
