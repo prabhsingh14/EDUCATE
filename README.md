@@ -6,9 +6,10 @@ EDUCATE is a robust and scalable backend solution for an edtech platform, design
 ## Features
 - **User Authentication & Authorization:**
   - Secure user sign-up, login, and session management using JWT.
-  - OTP verification and password recovery functionalities.
+  - OTP verification and reset password functionalities.
 
 - **Course Management:**
+  - Admin can create, and manage categories.
   - Instructors can create, update, delete, and manage courses.
   - Students can browse, enroll in, and rate courses.
 
@@ -25,6 +26,7 @@ EDUCATE is a robust and scalable backend solution for an edtech platform, design
 - **Node.js & Express.js:** Backend framework and server setup.
 - **MongoDB:** NoSQL database for flexible and scalable data storage.
 - **JWT & Bcrypt:** Secure user authentication and password encryption.
+- **Nodemailer:** For sending mails in case of email verification during signup, for reset password etc.
 - **Mongoose:** ODM for MongoDB, enabling easy data interaction and schema management.
 - **Razorpay:** Payment gateway integration for processing transactions.
 - **Cloudinary:** Cloud-based media management for storing and serving multimedia content.
