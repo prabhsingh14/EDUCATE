@@ -61,3 +61,7 @@ To run the project locally, follow these steps:
 ## Contributions
 
 Feel free to contribute by submitting issues, pull requests, or suggestions. Your feedback is valuable!
+
+## Connect with Me
+
+I am always eager to connect with fellow developers and recruiters. Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/prabhsingh14/) or via email at prabhsingh1407@gmail.com.
